@@ -1,5 +1,5 @@
 # PhotoApp
-A Photo App built with Java and JavaFX
+A Photo App built with Java and JavaFX\
 @Authors Brian Albert and Elijah Ongoco
 
 Features:
