@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+*
+* @authors Brian Albert and Elijah Ongoco
+*/
+-->
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.AdminController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Text layoutX="64.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create New User:" />
+            <TextField fx:id="newUser" layoutX="55.0" layoutY="118.0" />
+            <Button fx:id="addUser" layoutX="221.0" layoutY="118.0" mnemonicParsing="false" onAction="#add" text="Add" />
+            <Button fx:id="deleteUser" layoutX="374.0" layoutY="294.0" mnemonicParsing="false" onAction="#delete" text="Delete" />
+            <Button fx:id="logout" layoutX="35.0" layoutY="338.0" mnemonicParsing="false" onAction="#logout" text="Logout" />
+            <Button fx:id="quit" layoutX="110.0" layoutY="338.0" mnemonicParsing="false" onAction="#quit" text="Quit" />
+            <ListView fx:id="userList" layoutX="299.0" layoutY="73.0" prefHeight="200.0" prefWidth="200.0" />
+            <Text layoutX="362.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Users:" />
+	    	<Button fx:id="load" layoutX="374.0" layoutY="14.0" mnemonicParsing="false" onAction="#load" text="List Users" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

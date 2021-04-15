@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+*
+* @authors Brian Albert and Elijah Ongoco
+*/
+-->
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.AlbumViewerController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS" />
+      <VBox prefHeight="400.0" prefWidth="640.0">
+         <children>
+            <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Text layoutX="61.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Album Details:" />
+                  <Text layoutX="63.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Album Name:" />
+                  <Button fx:id="deleteAlbum" layoutX="447.0" layoutY="295.0" mnemonicParsing="false" onAction="#delete" text="Delete Album" />
+                  <Button fx:id="createAlbum" layoutX="66.0" layoutY="235.0" mnemonicParsing="false" onAction="#create" text="Create Album" />
+                  <Button fx:id="logout" layoutX="35.0" layoutY="338.0" mnemonicParsing="false" onAction="#logout" text="Logout" />
+                  <Button fx:id="quit" layoutX="110.0" layoutY="338.0" mnemonicParsing="false" onAction="#quit" text="Quit" />
+                  <ListView fx:id="albumList" layoutX="390.0" layoutY="73.0" prefHeight="200.0" prefWidth="200.0" onMouseClicked="#updateDetails"/>
+                  <Text layoutX="469.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Albums:" />
+                  <Text layoutX="49.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Photos:" />
+                  <Text layoutX="67.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date Range:" />
+                  <Label fx:id="nameLabel" layoutX="168.0" layoutY="76.0" />
+                  <Label fx:id="numberLabel" layoutX="168.0" layoutY="94.0" />
+                  <Label fx:id="dateLabel" layoutX="168.0" layoutY="111.0" />
+                  <Button fx:id="renameAlbum" layoutX="62.0" layoutY="270.0" mnemonicParsing="false" onAction="#rename" text="Rename Album" />
+                  <Button fx:id="searchPhotos" layoutX="244.0" layoutY="157.0" mnemonicParsing="false" onAction="#search" text="Search for Photos" />
+                  <Text layoutX="60.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Album Name:" />
+                  <TextField fx:id="newName" layoutX="36.0" layoutY="198.0" />
+                  <Button fx:id="openAlbum" layoutX="448.0" layoutY="326.0" mnemonicParsing="false" onAction="#open" text="Open Album" />
+		  		  <Button fx:id="load" layoutX="471.0" layoutY="14.0" mnemonicParsing="false" onAction="#load" text="Load" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+  </children>
+</VBox>
