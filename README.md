@@ -1,7 +1,7 @@
 # PhotoApp
 A Photo App built with Java and JavaFX\
 @Authors Brian Albert and Elijah Ongoco\
-Copied to GitHub from BitBucket\
+Copied to GitHub from BitBucket
 
 Features:
 - Admin Page to create and delete users
