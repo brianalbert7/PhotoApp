@@ -16,4 +16,5 @@ Features:
 - Move a photo to another album
 - Search for photos by a date range
 - Search for photos by tags
-- Make an album with the results of a search
+- Make an album with the results of a search\\
+Copied to GitHub from BitBucket
