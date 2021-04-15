@@ -17,4 +17,4 @@ Features:
 - Search for photos by a date range
 - Search for photos by tags
 - Make an album with the results of a search\
-Copied to GitHub from BitBucket
+\Copied to GitHub from BitBucket
