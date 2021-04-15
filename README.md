@@ -1,6 +1,7 @@
 # PhotoApp
 A Photo App built with Java and JavaFX\
-@Authors Brian Albert and Elijah Ongoco
+@Authors Brian Albert and Elijah Ongoco\
+Copied to GitHub from BitBucket\
 
 Features:
 - Admin Page to create and delete users
@@ -17,5 +18,3 @@ Features:
 - Search for photos by a date range
 - Search for photos by tags
 - Make an album with the results of a search\
-__
-Copied to GitHub from BitBucket
